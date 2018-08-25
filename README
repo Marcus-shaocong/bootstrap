@@ -1,0 +1,9 @@
+.container or .container-fluid
+.row
+.col-sm-4 .col-sm-8
+
+extra-small devices : xs : <768px
+small devices : sm : >= 768px
+Medium devices : md : >=992px
+large devices : lg : >= 1200px
+
