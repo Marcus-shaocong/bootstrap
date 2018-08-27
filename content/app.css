@@ -1,14 +1,53 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    padding-top: 99px;
 }
 
-header, footer {
+footer {
     background-color: #333;
     color:#ddd;
     padding: 20px;
     text-align: center;   
 }
+
+
+
+/* .navbar-brand{
+    margin-right: 80rem;
+} */
+.bg-red{
+    background-color: red;
+}
+
+/* .navbar-dark .navbar-nav .nav-link{
+    color: #bbb;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link{
+    color: #bbb;
+} */
+
+.navbar {
+    margin-bottom: 0px;
+    padding:30px 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.cbp-af-header-shrink{
+    padding-top:5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+
+/* .container-fluid{
+    padding-top: 99px;
+} */
+.navbar-brand img{
+    width:70px;
+    height: 70px;
+} 
 
 aside {
     background-color: #f7f7f7;

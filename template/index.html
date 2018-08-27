@@ -6,15 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
     <link rel="stylesheet" href="../content/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+   
+
     <link rel="stylesheet" href="../content/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <header class="container-fluid">
-        <h1>头条</h1>
+    <header>
+       
+        <nav class="cbp-af-header navbar navbar-expand-lg navbar-dark bg-dark fixed-top cbp-af-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.png" alt="">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sports">sports</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#news">news</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact us</a>
+                  </li>
+              </ul>
+            </div>
+            
+          </nav>
     </header>
+
+    <!--
     <div class="container-fluid">
         <div class="row sports-list-top">
             <div class="sports-icon-list sports-icon-top d-none d-md-block d-lg-block">
@@ -36,10 +71,10 @@
             </div>
         </div>
     </div>
-
-    <div class="container-fluid container-sm-height">
-        <div class="row row-sm-height">
-            <section class="col-sm-9 col-lg-8 order-sm-2 col-sm-height">
+-->
+    <div class="container-fluid">
+        <div class="row ">
+            <section class="col-sm-8 col-lg-8 order-sm-2 ">
                 <article>
                     <h2>拍顺责诉忍阳左奶。解红于欢则野经果立伤？</h2>
                     <img src="../images/scene1.jpg" alt="" />
@@ -74,7 +109,7 @@
                 </article>
             </section>
 
-            <aside class="col-sm-3 col-lg-4 order-sm-1 col-sm-height">
+            <aside class="col-sm-2 col-lg-2 order-sm-1 ">
                 <h4 class="range-title">
                     <b>罪言制</b>
                 </h4>
@@ -93,8 +128,8 @@
                     </a>
                 </div>
             </aside>
-
-            <aside class="col-xs-12 col-md-2 order-sm-3 sports-icon-list d-md-none col-sm-height">
+            <!-- d-md-none can hidden this when in md-->
+            <aside class="col-sm-2 col-lg-2 order-sm-3 sports-icon-list">
                 <a herf="wasatch-range.html">
                     <img src="../images/icon4.png" alt="" />
                     <h6>喊形</h6>
@@ -114,6 +149,9 @@
     <footer class="container-fluid">
         <h1>Footer</h1>
     </footer>
+    <script src="../scripts/classie.js"></script>
+    <script src="../scripts/cbpAnimatedHeader.min.js"></script>
+
 </body>
 
 </html>
